@@ -33,7 +33,7 @@ body {
     color: rgb(15, 15, 15);
     display: block;
     font-size: 12px;
-    max-width: 400px;
+    max-width: 450px;
     margin: 50px auto;
     padding: 10px;
     text-align: center;
@@ -69,3 +69,42 @@ body {
   div.search-button {
     padding: 0px 2px;
   }
+  
+  /* Aktuelle Wetteranzeige */
+  
+  i.current-weather-icon {
+    font-size: 50px;
+    padding: 3px;
+    position: relative;
+    bottom: 4px;
+  }
+  
+  span.temperature-value {
+    font-size: 70px;
+    font-weight: 900;
+  }
+  
+  a.temperature-metric {
+    color: rgb(15, 15, 15);
+    font-size: 16px;
+    position: relative;
+    bottom: 34px;
+    text-decoration: none;
+    transition: all 200ms ease-in-out;
+  }
+  
+  a.temperature-metric:hover {
+    color: rgb(108, 117, 125);
+    cursor: pointer;
+  }
+  
+  section.weather-info {
+    letter-spacing: 1px;
+    padding-top: 18px;
+    padding-bottom: 22px;
+  }
+  
+  section .headings {
+    font-weight: 900;
+  }
+  
